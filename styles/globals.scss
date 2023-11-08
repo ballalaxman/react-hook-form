@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// @import "./design-systems.scss";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font: 400 $desktop-title-large var(--space_grotesk);
+}
+
+#mobilenum {
+  background: transparent;
+}
+
+#mobilenum:focus {
+  outline: none;
+}
+
+.PhoneInputCountry {
+  color: black;
+}
